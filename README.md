@@ -7,7 +7,7 @@ Simple Node.js web chat created by an exercise on lynda.com. This web chat based
 ## Instructions
 1. Make sure you have these installed
 	- [node.js](http://nodejs.org/)
-  - [nodemoon.js](https://www.npmjs.com/package/nodemon)
+  	- [nodemoon.js](https://www.npmjs.com/package/nodemon)
 2. Clone this repository into your local machine using the terminal `> git clone https://github.com/RafaelMartins98/simple-chat.git`
 3. CD to the folder `cd simple-chat`
 4. Run `> npm-install` to install the project dependencies
