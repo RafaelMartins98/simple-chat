@@ -5,7 +5,7 @@ var http = require('http').Server(app)
 var io = require('socket.io')(http)
 var mongoose = require('mongoose')
 
-var dbURL = 'mongodb+srv://user:user@learning-node-p2wta.mongodb.net/test?retryWrites=true&w=majority'
+var dbURL = 'mongodb+srv://<user>:<pw>@learning-node-p2wta.mongodb.net/test?retryWrites=true&w=majority'
 
 app.use(express.static(__dirname))
 app.use(bodyParser.json())
